@@ -5,7 +5,7 @@ import os
 
 parser = ap.ArgumentParser()
 parser.add_argument('json_path', help='path to json file to be converted')
-parser.add_argument('csv_path', help='path to csv file to be converted')
+parser.add_argument('csv_path', help='path of csv file to be created')
 
 args = parser.parse_args()
 json_path = args.json_path
